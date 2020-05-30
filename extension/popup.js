@@ -19,15 +19,6 @@ document.addEventListener(
     fetch('https://dolarhoy.com')
       .then((response) => response.text())
       .then((html) => parseString(html));
-
-    // var checkPageButton = document.getElementById('checkPage');
-    // checkPageButton.addEventListener(
-    //   'click',
-    //   function () {
-    //     console.log('clicked');
-    //   },
-    //   false
-    // );
   },
   false
 );

@@ -1,15 +1,14 @@
 body {
   min-width: 400px;
+  margin-right: 30px;
 }
 
 h1 {
   color: #368a6f;
 }
 
-.container {
-  display: flex;
-  padding: 10;
-  flex-direction: column;
+.img-responsive {
+  width: 100%;
 }
 
 .pill-coti {
